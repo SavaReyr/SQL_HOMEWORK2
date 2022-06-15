@@ -1,0 +1,18 @@
+SELECT * FROM genre_performer
+
+SELECT MAX(duration) FROM track;
+
+SELECT album_name, release_year from album
+WHERE release_year = 2018;
+
+select track_name from track 
+where duration >= 3.5;
+
+select collection_name from collection
+where year BETWEEN 2018 AND 2020;
+
+select track_name from track
+where track_name like '%My%';
+
+select name from performer 
+where name not like '%% %%';
